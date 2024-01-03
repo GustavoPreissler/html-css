@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <style>
+        body {
+            background-color: lightblue;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        #principal {
+            background-color: white;
+            border-radius: 10px;
+            height: 400px;
+            width: 325px;
+            margin: auto;
+        }
+
+        #result01 {
+            width: 300px;
+            height: 40px;
+        }
+
+        .botoes {
+            width: 50px;
+            height: 50px;
+            font-size: 20px;
+            margin-top: 10px;
+        }
+
+        #footer {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div id="principal">
+        <h1 style="text-align: center;">Calculadora v0.1</h1>
+        <input type="text" name="result01" id="result01" style="text-align: right;">
+        <input type="button" value="1" class="botoes" id="um" onclick="um()">
+        <input type="button" value="2" class="botoes" id="dois">
+        <input type="button" value="3" class="botoes" id="tres">
+        <input type="button" value="4" class="botoes" id="quatro">
+        <input type="button" value="5" class="botoes" id="cinco">
+        <input type="button" value="6" class="botoes" id="seis">
+        <input type="button" value="7" class="botoes" id="sete">
+        <input type="button" value="8" class="botoes" id="oito">
+        <input type="button" value="9" class="botoes" id="nove">
+        <input type="button" value="0" class="botoes" id="zero">
+        <input type="reset" value="C" class="botoes" id="c">
+        <input type="button" value="E" class="botoes" id="e">
+    </div>
+    <footer id="footer">Calculadora Test 0.1</footer>
+    <script src="script.js"></script>
+</body>
+</html>
