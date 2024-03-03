@@ -54,7 +54,7 @@ header {
 
 /*h1 do Header*/
 header > h1 { 
-    color: white;
+    color: hwb(205 7% 81%);
     font-family: var(--fonte-destaque);
     font-size: 3em;
     font-weight: normal;
